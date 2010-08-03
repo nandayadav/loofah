@@ -1,10 +1,10 @@
 # -*- encoding: utf-8 -*-
-lib = File.expand_path('../lib/', __FILE__)
-$:.unshift lib unless $:.include?(lib)
-require 'loofah'
+# lib = File.expand_path('../lib/', __FILE__)
+# $:.unshift lib unless $:.include?(lib)
+# require 'loofah'
 Gem::Specification.new do |s|
   s.name        = "loofah"
-  s.version     = Loofah::VERSION
+  s.version     = "1.0.0.beta.1"
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Mike Dalessio, Bryan Helmkamp"]
   s.required_rubygems_version = ">= 1.3.1"
